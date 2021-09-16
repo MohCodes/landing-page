@@ -1,0 +1,128 @@
+.header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    gap: 40%;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+
+}
+
+.links{
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style-type: none;
+    display:flex;
+    flex:1;
+    align-items: stretch;
+    justify-content: stretch;
+    gap: 20px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    display:flex;
+    flex:1;
+    
+}
+
+.body{
+
+    background-color: #1f2937 ;
+}
+.hero{
+    display: flex;
+
+    justify-content: center;
+    margin-top: 40px;
+    margin-right:7%;
+    margin-left:7%;
+    margin-bottom:7%
+}
+.text{
+    background-color: #1f2937 ;
+    display:flex;
+    flex-direction: column;
+}
+
+.MainText{
+    color:#f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+
+    width:50%;
+
+}
+
+.SecondText{
+    color: #e5e7eb;
+    font-size: 18px;
+    display:flex;
+
+    height:30%;
+    width:65%;
+    margin-top:-5%;
+   
+}
+
+.button{
+    background-color: #3882f6;
+    border-radius: 6px;
+    border-color:#3882f6;
+    width:10%;
+    color:#f9faf8;
+    font-weight: 700;
+
+}
+
+.info{
+    background-color: #e5e7eb;
+    border-color: lightcoral;
+    border-style: double;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.figurino{
+    display:flex;
+    flex:1;
+    flex-direction: row;
+    gap: 52px;
+    border-color: yellow;
+    border-style: double;
+    justify-content: center;
+    height:400px;
+    align-items: center;
+}
+
+.fig img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    border-color: #3822f6;
+    border-style:solid;
+    border-radius: 10px;
+    
+
+}
+
+.fig p{
+    width: 150px;
+    
+    text-align: center;
+
+}
